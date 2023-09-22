@@ -118,7 +118,7 @@ button{
 /* Categories start */
 
 .top__cards{
-    margin-top: 60px;
+    margin-top: 65px;
     margin-bottom: 30px;
     display: flex;
     flex-direction: row;
@@ -167,7 +167,7 @@ button{
 }
 
 .bottom__card{
-    padding-bottom: 96px;
+    margin-bottom: 96px;
 }
 
 .categories__card_text{
@@ -295,7 +295,7 @@ button{
 
 /* For tablet start */
 
-@media(max-width: 1024px) and (min-width: 768px){
+@media(min-width: 768px) and (max-width: 1024px){
     .container{
         max-width: 736px;
         margin: 0 auto;
@@ -394,3 +394,136 @@ button{
         margin-bottom: 64.52px;
     }
 }
+
+/* For tablet end */
+
+/* For phone start */
+
+@media(min-width: 375px) and (max-width: 767px){
+    .container{
+        max-width: 375px;
+    }
+
+    .header__content{
+        padding: 18px 16px;
+    }
+
+    .phone__container{
+        width: 375px;
+        height: 363px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation{
+        min-width: 0;
+    }
+
+    .button-menu{
+    }
+
+    .button-user{
+        display: none;
+    }
+
+    .button-cart{
+        display: none;
+    }
+
+    .main__title_card{
+        width: 263px;
+    }
+
+    .main__title{
+        font-size: 38px;
+        line-height: 45.6px;
+    }
+
+    .main__subtitle{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .main__subtitle_red{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .main__img{
+        display: none;
+    }
+
+    .top__cards{
+        margin-top: 64px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 32px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bottom__card{
+        display: flex;
+        margin-bottom: 64px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .categories__card_1{
+        background-image: url(./img/for_women_phone.png);
+        background-repeat: no-repeat;
+        width: 343px;
+        height: 248px;
+    }
+
+    .categories__card_2{
+        background-image: url(./img/for_men_phone.png);
+        background-repeat: no-repeat;
+        width: 343px;
+        height: 248px;
+    }
+
+    .categories__card_3{
+        background-image: url(./img/for_kids_phone.png);
+        background-repeat: no-repeat;
+        width: 343px;
+        height: 248px;
+    }
+
+    .categories__card_4{
+        background-image: url(./img/accesories_phone.png);
+        background-repeat: no-repeat;
+        width: 343px;
+        height: 111px;
+    }
+
+    .categories__card_text{
+        padding-top: 100px;
+    }
+
+    .bottom__card_text{
+        padding-top: 30px;
+    }
+
+    .items__cards{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 16.6px;
+    }
+
+    .item__img{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+/* For phone end */
